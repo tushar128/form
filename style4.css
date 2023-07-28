@@ -1,0 +1,73 @@
+body{
+    border: 2px solid rgb(32, 7, 7);
+    margin:auto ;
+    width: 100%;
+    padding: 40px;
+}
+form{
+    max-width: 1000px;
+    border: 2px solid red;
+    margin: auto;
+    background-color: whitesmoke;
+padding: 20px;
+font-size: larger;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: brown;
+display: block;
+}
+form > div{
+    margin:10px auto ;
+    width: 700px;
+}
+h1{
+    text-align: center;
+    text-decoration: 10px;
+    text-transform: capitalize;
+    margin: 40px;
+    padding: 20px;
+   /* margin: auto;
+    border:solid;
+    border-radius: 3px;
+    border: 3px dashed rgb(18, 18, 71);
+    padding: 20px;
+    border-radius: 1px;
+    width: 200px;*/
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+select,
+textarea{
+    width: 80%;
+    padding: 5px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    background-color: rgba(32, 148, 250, 0.438);
+}
+input[type="submit"]
+{
+    width: 200px;
+    padding: 6px;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    display: block;
+    margin: auto;
+    border:dashed;
+    background-color: rgb(255, 204, 127);
+    border-radius: 20px;
+    color: rgb(172, 15, 15);
+    cursor: grab;
+
+}
+input[type="submit"]:hover{
+    background-color: rgb(18, 18, 71);
+}
+.check{
+    border: 3px solid rgb(18, 18, 71);
+    padding: 20px;
+    border-radius: 3px;
+}
